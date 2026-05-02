@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Thy Nguyen Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Thy Nguyen's Portfolio</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">About Me</a></li>
+						<li><a href="#two">Resume</a></li>
+						<li><a href="#work">My Projects</a></li>
+						<li><a href="#nmix4020">NMIX4020</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1">
+				<div class="content">
+					<span class="image"><img src="images/logo.png" alt="Thy Nguyen Logo" /></span>
+					<header>
+						<h2><span id="typed-name" data-text="Thy Nguyen"></span><span class="typed-cursor" aria-hidden="true">|</span></h2>
+					</header>
+					<p>Management Information Systems + New Media Certificate @ University of Georgia</p><br>
+					<p>Sipping on success: we make IT happen!</p>
+					<footer>
+						<a href="#one" class="button style2 down"></a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right">
+				<div class="about-media-panel">
+					<div class="image fit">
+						<img src="images/headshot.jpg" alt="Thy Nguyen Headshot" />
+					</div>
+				</div>
+				<div class="content box style2">
+					<header>
+						<h2>About Me</h2>
+					</header>
+					<p>I'm a Management Information Systems student at the University of Georgia. I have an area of emphasis in Data Analytics and a New Media Certificate. In my free time, I enjoy kpop, idols, traveling, collecting, and anything small and cute.</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left">
+				<div class="content box style2">
+					<header>
+						<h2>Resume</h2>
+					</header>
+				</div>
+				<div class="resume-media-panel box style2">
+					<div class="image fit">
+						<img src="images/portfolio_resume.png" alt="Resume Preview" />
+					</div>
+					<ul class="actions special" style="margin-top: 1em;">
+						<li><a href="images/portfolio_resume.pdf" download class="button">Download Resume</a></li>
+					</ul>
+				</div>
+				<a href="#three" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="three" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Projects</h2>
+						<p>Click on images to go to the projects.</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="https://thynguyenprojects.com/NMIX4020/Module1/ProjectOne/html5upTemplate/index.html" class="image fit"><img src="images/projects/01.png" title="Project One" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="https://thynguyenprojects.com/NMIX4020/Module2/ProjectTwo/slideshowProject.html" class="image fit"><img src="images/projects/02.png" title="Project Two" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="https://thynguyenprojects.com/NMIX4020/Module2/ProjectThree/objectProject.html" class="image fit"><img src="images/projects/03.png" title="Project Three" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="https://thynguyenprojects.com/NMIX4020/Module2/ProjectFive/jukebox.html" class="image fit"><img src="images/projects/04.png" title="Project Four" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="https://thynguyenprojects.com/NMIX4020/Module3/ProjectSix/catshow-start.html" class="image fit"><img src="images/projects/05.png" title="Project Five" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="https://thynguyenprojects.com/NMIX4020/Module4/finalProject/finalProject.html" class="image fit"><img src="images/projects/06.png" title="Project Six" alt="" /></a>
+							</article>
+						</div>
+						<a href="#nmix4020" class="button style2 down anchored">Next</a>
+				</div>
+			</section>
+
+		<!-- NMIX4020 -->
+			<section id="nmix4020" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>NMIX4020</h2>
+						<p>Explore all coursework and project modules for this course.</p>
+					</header>
+					<ul class="actions special">
+						<li><a href="https://thynguyenprojects.com/NMIX4020/" class="button nmix4020-link" target="_blank" rel="noopener noreferrer">Open NMIX4020 Homepage</a></li>
+					</ul>
+				</div>
+				<a href="#contact" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Contact</h2>
+					</header>
+					<div class="box">
+						<form id="contact-form" onsubmit="return false;">
+							<div class="fields">
+								<div class="field half"><input type="text" id="contact-name" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" id="contact-email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea id="contact-message" name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="button" value="Send Message" onclick="sendContactEmail()" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/thyyn_/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.linkedin.com/in/thy-nguyen-338b09341" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
